@@ -67,8 +67,10 @@ public class SoundMusicSeleniumTest {
         String nombreUsuario = "miguel123";
         String pass1 = "miguel123";
         String pass2 = "miguel123";
+        String numCel="316757";
+        String direccion = "Calle 2 #74-35";
 
-        us.usuarioApp(nom1, nom2, apellido1, apellido2, email, nombreUsuario, pass1, pass2);
+        us.usuarioApp(nom1, nom2, apellido1, apellido2, email, nombreUsuario, pass1,pass2, numCel,direccion);
 //        emp = new empresas();
 //        emp.empresaApp();
 //        art = new artistas();
