@@ -40,7 +40,7 @@ public class SoundMusicSeleniumTest {
 
     @Before
     public void setUp() {
-        driver.get("http://localhost:24670/soundMusic/login.jsp");
+        driver.get("http://localhost:24670/SoundMusic/login.jsp");
     }
 
     @After
@@ -64,9 +64,9 @@ public class SoundMusicSeleniumTest {
         String apellido1 = "Marin";
         String apellido2 = "Arias";
         String email = "miguel-angel@gmail.com";
-        String nombreUsuario = "miguel123";
-        String pass1 = "miguel123";
-        String pass2 = "miguel123";
+        String nombreUsuario = "@Miguel123";
+        String pass1 = "Miguel123";
+        String pass2 = "Miguel123";
         String numCel="316757";
         String direccion = "Calle 2 #74-35";
 
